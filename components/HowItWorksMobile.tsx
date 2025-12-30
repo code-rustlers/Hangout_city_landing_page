@@ -11,7 +11,7 @@ export default function HowItWorksMobile() {
 
       {/* EVENTS */}
       <div className="mb-4 relative">
-        <div className="flex items-start gap-4">
+        <div className="flex items-start gap-4 pb-3">
           <div className="w-40 h-52 relative shrink-0 rounded-2xl overflow-hidden">
             <Image
               src="/testi1.png"
@@ -87,7 +87,7 @@ export default function HowItWorksMobile() {
       {/* COMMUNITY */}
       <div className="relative pt-8">
         <div className="flex items-start gap-4">
-          <div className="w-40 h-52 relative shrink-0 rounded-2xl overflow-hidden">
+          <div className="w-40 h-56 relative shrink-0 rounded-2xl overflow-hidden">
             <Image
               src="/testi3.png"
               alt="Community"
