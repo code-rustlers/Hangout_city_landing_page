@@ -32,7 +32,7 @@ export default function HowItWorksMobile() {
           </div>
         </div>
         {/* Line 1 - from Events to Series */}
-        <div className="absolute -bottom-22 right-20 w-52 h-28 pointer-events-none z-10">
+        <div className="absolute -bottom-24 right-20 w-52 h-28 pointer-events-none z-10">
           <Image
             src="/line1.png"
             alt=""
@@ -74,7 +74,7 @@ export default function HowItWorksMobile() {
           </div>
         </div>
         {/* Line 3 - from Series to Community */}
-        <div className="absolute -bottom-85 left-17 w-52 h-28 pointer-events-none z-100">
+        <div className="absolute -bottom-90 left-17 w-52 h-28 pointer-events-none z-100">
           <Image
             src="/line3.png"
             alt=""
