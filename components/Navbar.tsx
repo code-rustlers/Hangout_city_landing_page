@@ -143,7 +143,7 @@ const Navbar = () => {
               <li>
                 <a 
                   href="#how-it-works" 
-                  onClick={(e) => handleLinkClick(e, '#how-it-works')}
+                  onClick={(e) => handleLinkClick(e, '#cards')}
                   className="text-white text-lg hover:text-gray-300 transition block"
                 >
                   How it works?
@@ -169,14 +169,14 @@ const Navbar = () => {
               </li>
               <li>
                 <a 
-                  href="#join-event" 
-                  onClick={(e) => handleLinkClick(e, '#join-event')}
+                  href="#faq" 
+                  onClick={(e) => handleLinkClick(e, '#faq')}
                   className="text-white text-lg hover:text-gray-300 transition block"
                 >
-                  Join an event
+                  FAQ
                 </a>
               </li>
-              <li>
+              {/*<li>
                 <a 
                   href="#join-series" 
                   onClick={(e) => handleLinkClick(e, '#join-series')}
@@ -193,11 +193,11 @@ const Navbar = () => {
                 >
                   Join the community
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a 
-                  href="#contact" 
-                  onClick={(e) => handleLinkClick(e, '#contact')}
+                  href="#get-started" 
+                  onClick={(e) => handleLinkClick(e, '#get-started')}
                   className="text-white text-lg hover:text-gray-300 transition block"
                 >
                   Contact us

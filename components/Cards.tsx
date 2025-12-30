@@ -1,8 +1,8 @@
-import React from 'react';
+
 
 const HowItWorks = () => {
   return (
-    <div className="w-full">
+    <div className="w-full" id="cards">
       {/* Mobile View - Shows the cards using the image */}
       <div className="block lg:hidden" style={{ backgroundColor: "#F8F6F3" }}>
         <div className="relative max-w-md mx-auto ">
