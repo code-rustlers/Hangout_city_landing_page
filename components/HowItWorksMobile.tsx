@@ -23,8 +23,7 @@ export default function HowItWorksMobile() {
           <div className="flex-1">
             <h3 className="text-xl font-bold mb-2 text-gray-900">Events</h3>
             <p className="text-sm text-gray-600 mb-4">
-              It's not about swiping or networking. It's about showing up,
-              connecting, and letting friendships grow naturally.
+             Meet 6 new people over dinner. Exact Locations are shared 24 hours before.
             </p>
             <button className="bg-[#E07A7A] text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-[#d66a6a] transition-colors">
               Join an event
@@ -65,8 +64,7 @@ export default function HowItWorksMobile() {
           <div className="flex-1">
             <h3 className="text-xl font-bold mb-2 text-gray-900">Series</h3>
             <p className="text-sm text-gray-600 mb-4">
-              It's not about swiping or networking. It's about showing up,
-              connecting, and letting friendships grow naturally.
+              Our multi-week series place you in the same small group across multiple dinners. Less small talk. Deeper connections.
             </p>
             <button className="bg-[#6B7280] text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-[#5a5f6b] transition-colors">
               Join a series
@@ -98,8 +96,7 @@ export default function HowItWorksMobile() {
           <div className="flex-1">
             <h3 className="text-xl font-bold mb-2 text-gray-900">Community</h3>
             <p className="text-sm text-gray-600 mb-4">
-              It's not about swiping or networking. It's about showing up,
-              connecting, and letting friendships grow naturally.
+             After attending events or a series, you can join the wider Hangouts community, containing runner's clubs, travel groups, party groups, etc.
             </p>
             <button className="bg-[#7A9B8E] text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-[#6a8a7d] transition-colors">
               Join the community

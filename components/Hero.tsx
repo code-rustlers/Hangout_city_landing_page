@@ -13,12 +13,12 @@ const Hero = () => {
       {/* TEXT */}
       <div className="text-center mb-16 w-full">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-          Meet people. Make plans. Feel connected.
+          Meet people. Make plans. Build real friendships.
         </h1>
         <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-          It's not about swiping or networking.<br />
-          It's about showing up, connecting, and letting<br />
-          friendships grow naturally.
+          No swiping.<br />
+          No awkward DMs.<br />
+          Just show up, connect, and let friendships grow naturally.
         </p>
       </div>
 
