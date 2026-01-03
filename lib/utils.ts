@@ -24,13 +24,13 @@ export const testimonialsMobile = [
       rating: 3
     },
     {
-      name: "James Chen",
-      text: "As an introvert, I was nervous about meeting new people, but the structured group activities made it way less intimidating. Now I have a solid friend group and we hang out beyond just the organized events. Game changer!",
+      name: "Harish Rawat",
+      text: "As an introvert, I was nervous about meeting new people.But it was a very warm and welcoming vibe, which made it way less intimidating.Now I have a solid friend group, and we hang out beyond just the organised events.",
       rating: 5
     },
      {
-      name: "James Chen",
-      text: "As an introvert, I was nervous about meeting new people, but the structured group activities made it way less intimidating. Now I have a solid friend group and we hang out beyond just the organized events. Game changer!",
+      name: "Mohit Ranjan",
+      text: "I didn’t know what to expect going in, but everyone was genuinely friendly.The events were relaxed and had a great vibe and it never felt awkward or forced.",
       rating: 5
     },
   ];
@@ -42,8 +42,8 @@ export const testimonialsMobile = [
       rating: 3
     },
     {
-      name: "James Chen",
-      text: "As an introvert, I was nervous about meeting new people, but the structured group activities made it way less intimidating. Now I have a solid friend group and we hang out beyond just the organized events. Game changer!",
+      name: "Mohit Ranjan",
+      text: "I didn’t know what to expect going in, but everyone was genuinely friendly.The events were relaxed and had a great vibe and it never felt awkward or forced.",
       rating: 5
     },
   ];

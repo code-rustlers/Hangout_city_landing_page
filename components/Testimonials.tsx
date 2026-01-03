@@ -23,11 +23,6 @@ const TestimonialsDesktop = () => {
                       </p>
                       <div className="flex justify-between items-center">
                         <span className="font-semibold text-gray-900">{testimonial.name}</span>
-                        <div className="flex gap-1">
-                          {[...Array(testimonial.rating)].map((_, i) => (
-                            <span key={i} className="text-gray-900 text-xl">★</span>
-                          ))}
-                        </div>
                       </div>
                     </div>
                   ))}
@@ -44,11 +39,11 @@ const TestimonialsDesktop = () => {
                   </div>
                   <div className="space-y-4">
                     <p className="text-gray-700 leading-relaxed">
-                      "The beauty of Hangout City is that it takes the awkwardness out of making friends as an adult. You're all there for the same reason, doing something fun together, so conversations flow naturally."
+                      As an introvert, I was nervous about meeting new people.But it was a very warm and welcoming vibe, which made it way less intimidating.Now I have a solid friend group, and we hang out beyond just the organised events.
                     </p>
-                    <p className="text-gray-700 leading-relaxed">
+                    {/*<p className="text-gray-700 leading-relaxed">
                       "I've been to everything from cooking classes to board game nights, and every time I meet amazing people. Some have become my closest friends in the city!"
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>

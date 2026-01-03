@@ -18,7 +18,7 @@ const Hero = () => {
     >
       {/* TEXT */}
       <div className="text-center mb-8 sm:mb-12 lg:mb-16 w-full">
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6">
+        <h1 className="text-4xl sm:text-5xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
           Meet people. Make plans. Build real friendships.
         </h1>
 

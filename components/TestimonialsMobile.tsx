@@ -47,20 +47,22 @@ export const TestimonialsMobile = () => {
               className="min-w-full snap-center"
             >
               {/* Testimonial Card */}
-              <div className="bg-[#464646] rounded-2xl p-6 pt-16">
-                <p className="text-white text-sm leading-relaxed mb-6 text-center">
-                  {testimonial.text}
-                </p>
-                <div className="flex justify-between items-center">
-                  <span className="font-semibold text-white">{testimonial.name}</span>
-                  <div className="flex gap-1">
-                     {[...Array(testimonial.rating)].map((_, i) => (
-                            <span key={i} className="text-white text-xl">★</span>
-                      ))}
-                  </div>
-                </div>
-              </div>
+
+
+            <div className="bg-[#464646] rounded-2xl p-6 pt-16 h-66 flex flex-col">
+            {/* Testimonial text */}
+            <p className="text-white text-sm leading-relaxed text-center">
+              {testimonial.text}
+            </p>
+
+            {/* Footer pushed to bottom */}
+            <div className="mt-auto flex justify-center pt-6">
+              <span className="font-semibold text-white">
+                {testimonial.name}
+              </span>
             </div>
+          </div>
+          </div>
           ))}
         </div>
 
