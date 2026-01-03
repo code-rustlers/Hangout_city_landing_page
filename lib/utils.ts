@@ -1,19 +1,19 @@
 export const faqItems = [
     {
-      question: "What is hangout city?",
-      answer: "Hangout City is a community platform that brings people together through curated group experiences. We match you with like-minded individuals in your city who share similar interests and values, making it easy to build genuine friendships through real-world activities."
+      question: "What is hangouts",
+      answer: "Hangouts is an app to help people make friends IRL and connect with like minded people in their city.We curate events and social experiences for people to attend."
     },
     {
-      question: "Is this a dating app?",
-      answer: "No, Hangout City is specifically designed for making friends and building community, not dating. We focus on group activities and platonic connections to help you expand your social circle in a pressure-free environment."
+      question: "Is it a dating app?",
+      answer: "We do not promote ourselves as a dating app and have a strictly platonic focus. What our members choose to do after meeting up is upto them."
     },
     {
       question: "Who can join?",
       answer: "Anyone looking to make new friends and connections in their city! Whether you're new to town, working remotely, or simply want to expand your social circle, Hangout City welcomes people from all backgrounds who are interested in authentic, meaningful connections."
     },
     {
-      question: "Is this for free or paid?",
-      answer: "We offer both free and premium memberships. Free members can join select hangouts each month, while premium members get unlimited access to all events, priority booking, and exclusive community features."
+      question: "Is it for free or paid?",
+      answer: "We are a paid app, and attending any social experience requires you to either pay a one time event fee, or take a monthly subscription."
     }
   ];
 
