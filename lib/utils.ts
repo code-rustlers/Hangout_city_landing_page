@@ -19,9 +19,9 @@ export const faqItems = [
 
 export const testimonialsMobile = [
     {
-      name: "Sarah Mitchell",
-      text: "I moved to a new city for work and felt really isolated. Hangout City helped me find my people! Within a month, I had a regular trivia night crew and weekend hiking buddies. The no-pressure atmosphere made it so easy to be myself.",
-      rating: 5
+      name: "Shweta chabbriya",
+      text: "I moved to Mumbai for work and felt really isolated. Hangouts helped me find my people! Within a month, I had a regular Saturday night crew and weekend hiking buddies.",
+      rating: 3
     },
     {
       name: "James Chen",
@@ -37,9 +37,9 @@ export const testimonialsMobile = [
 
   export const testimonialsDesktop = [
     {
-      name: "Sarah Mitchell",
-      text: "I moved to a new city for work and felt really isolated. Hangout City helped me find my people! Within a month, I had a regular trivia night crew and weekend hiking buddies. The no-pressure atmosphere made it so easy to be myself.",
-      rating: 5
+      name: "Shweta chabbriya",
+       text: "I moved to Mumbai for work and felt really isolated. Hangouts helped me find my people! Within a month, I had a regular Saturday night crew and weekend hiking buddies.",
+      rating: 3
     },
     {
       name: "James Chen",
