@@ -2,7 +2,7 @@ import React from 'react'
 
 const Info = () => {
   return (
-    <section className="bg-white py-20" style={{ backgroundColor: "#F8F6F3" }}>
+    <section className="bg-white pb-20" style={{ backgroundColor: "#F8F6F3" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>

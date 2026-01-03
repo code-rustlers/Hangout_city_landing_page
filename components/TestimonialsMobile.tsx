@@ -54,9 +54,9 @@ export const TestimonialsMobile = () => {
                 <div className="flex justify-between items-center">
                   <span className="font-semibold text-white">{testimonial.name}</span>
                   <div className="flex gap-1">
-                    {[...Array(5)].map((_, i) => (
-                      <span key={i} className="text-white text-base">★</span>
-                    ))}
+                     {[...Array(testimonial.rating)].map((_, i) => (
+                            <span key={i} className="text-white text-xl">★</span>
+                      ))}
                   </div>
                 </div>
               </div>

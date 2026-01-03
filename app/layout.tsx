@@ -7,8 +7,8 @@ export const metadata: Metadata = {
   title: "Hangout City",
   description: "Meet new people",
    icons: {
-    icon: "/logo2.png",
-    apple: "/logo2.png",
+    icon: "/fav.png",
+    apple: "/fav.png",
   },
 };
 

@@ -30,28 +30,10 @@ export default function HowItWorksMobile() {
             </button>
           </div>
         </div>
-        {/* Line 1 - from Events to Series */}
-        <div className="absolute -bottom-24 right-20 w-52 h-28 pointer-events-none z-10">
-          <Image
-            src="/line1.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
       </div>
 
       {/* SERIES */}
       <div className="mb-4 relative pt-18 pb-4">
-        {/* Line 2 - continuing from Events */}
-        <div className="absolute left-12 w-52 h-28 pointer-events-none z-10 -bottom-15">
-          <Image
-            src="/line2.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
-        </div>
         <div className="flex items-start gap-4 flex-row-reverse relative z-20">
           <div className="w-40 h-52 relative shrink-0 rounded-2xl overflow-hidden">
             <Image
@@ -70,15 +52,6 @@ export default function HowItWorksMobile() {
               Join a series
             </button>
           </div>
-        </div>
-        {/* Line 3 - from Series to Community */}
-        <div className="absolute -bottom-90 left-17 w-52 h-28 pointer-events-none z-100">
-          <Image
-            src="/line3.png"
-            alt=""
-            fill
-            className="object-contain"
-          />
         </div>
       </div>
 
