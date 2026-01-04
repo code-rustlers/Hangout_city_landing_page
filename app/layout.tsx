@@ -4,7 +4,7 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "Hangout City",
+  title: "Hangouts",
   description: "Meet new people",
    icons: {
     icon: "/fav.png",
