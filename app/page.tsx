@@ -1,6 +1,7 @@
 'use client'
 import Cards from '@/components/Cards';
 import Footer from '@/components/Footer';
+import Gallery from '@/components/Gallery';
 import Hero from '@/components/Hero';
 import Info from '@/components/Info';
 import Navbar from '@/components/Navbar';
@@ -16,6 +17,7 @@ export default function HangoutsLanding() {
       <Navbar/>
       <Hero/>    
       <Info/>
+      <Gallery/>
       <Cards/>
       <HowItWorks/>
       <Testimonials/>

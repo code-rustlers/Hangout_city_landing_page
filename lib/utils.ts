@@ -1,49 +1,66 @@
 export const faqItems = [
     {
-      question: "What is hangouts",
-      answer: "Hangouts is an app to help people make friends IRL and connect with like minded people in their city.We curate events and social experiences for people to attend."
+      question: "What is Hangouts?",
+      answer: "Hangouts runs offline singles events. You choose an event format, book your spot, and meet other singles in person at a restaurant or hosted venue."
     },
     {
-      question: "Is it a dating app?",
-      answer: "We do not promote ourselves as a dating app and have a strictly platonic focus. What our members choose to do after meeting up is upto them."
+      question: "What are the event formats?",
+      answer: "Curated Table is a smaller dinner with 8-10 singles at one restaurant table. Singles Mashup is a larger hosted gathering with up to 25 singles."
     },
     {
       question: "Who can join?",
-      answer: "Anyone looking to make new friends and connections in their city! Whether you're new to town, working remotely, or simply want to expand your social circle, Hangout City welcomes people from all backgrounds who are interested in authentic, meaningful connections."
+      answer: "Anyone who is single and interested in meeting people offline can apply or book. We manually verify each person's social media profile to help prevent fraudulent profiles from joining."
     },
     {
-      question: "Is it for free or paid?",
-      answer: "We are a paid app, and attending any social experience requires you to either pay a one time event fee, or take a monthly subscription."
+      question: "How are people matched or curated?",
+      answer: "We use basic details like age, gender, city, preferences, and event type to create the guest list. We aim for a 50-50 gender ratio at each event, while keeping the group relevant for the format."
+    },
+    {
+      question: "How is safety handled?",
+      answer: "All events are hosted in public places with dedicated hosts. Anyone acting inappropriately may be asked to leave the venue and may not be approved for future events."
+    },
+    {
+      question: "Is it paid?",
+      answer: "Yes. Events are paid. Pricing may vary by format, city, venue, and what is included in the event."
+    },
+    {
+      question: "When do I get the venue details?",
+      answer: "We share venue details on our app 24 hours before each event. Updates are also shared individually through SMS or WhatsApp."
     }
   ];
 
 export const testimonialsMobile = [
     {
-      name: "Shweta chabbriya",
-      text: "I moved to Mumbai for work and felt really isolated. Hangouts helped me find my people! Within a month, I had a regular Saturday night crew and weekend hiking buddies.",
-      rating: 3
+      name: "Shweta Chabbriya",
+      text: "I met someone really interesting and compatible, which I never would have met on a dating app.",
+      rating: 5
     },
     {
       name: "Harish Rawat",
-      text: "As an introvert, I was nervous about meeting new people.But it was a very warm and welcoming vibe, which made it way less intimidating.Now I have a solid friend group, and we hang out beyond just the organised events.",
+      text: "I usually hate forced dating events, but this was different. Good crowd, easy conversations, and no pressure to perform.",
       rating: 5
     },
      {
       name: "Mohit Ranjan",
-      text: "I didn’t know what to expect going in, but everyone was genuinely friendly.The events were relaxed and had a great vibe and it never felt awkward or forced.",
+      text: "I did not know what to expect, but the room had great energy. It felt like a night out, not a dating interview.",
       rating: 5
     },
   ];
 
   export const testimonialsDesktop = [
     {
-      name: "Shweta chabbriya",
-       text: "I moved to Mumbai for work and felt really isolated. Hangouts helped me find my people! Within a month, I had a regular Saturday night crew and weekend hiking buddies.",
-      rating: 3
+      name: "Shweta Chabbriya",
+       text: "I met someone really interesting and compatible, which I never would have met on a dating app.",
+      rating: 5
+    },
+    {
+      name: "Harish Rawat",
+      text: "I usually hate forced dating events, but this was different. Good crowd, easy conversations, and no pressure to perform.",
+      rating: 5
     },
     {
       name: "Mohit Ranjan",
-      text: "I didn’t know what to expect going in, but everyone was genuinely friendly.The events were relaxed and had a great vibe and it never felt awkward or forced.",
+      text: "I did not know what to expect, but the room had great energy. It felt like a night out, not a dating interview.",
       rating: 5
     },
   ];

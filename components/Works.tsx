@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HowItWorksMobile from "./HowItWorksMobile";
 import HowItWorksDesktop from "./WorksDesktop";
 

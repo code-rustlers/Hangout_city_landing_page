@@ -13,7 +13,7 @@ const Questions = () => {
     <section id="faq" className="py-20" style={{ backgroundColor: "#F8F6F3" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-5xl  text-black font-bold text-center mb-2">
-            frequesntly asked questions
+            frequently asked questions
           </h2>
           
           <div className="mt-16 space-y-4">

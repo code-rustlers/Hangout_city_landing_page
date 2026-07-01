@@ -4,8 +4,8 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "Hangouts",
-  description: "Meet new people",
+  title: "Hangouts Singles Mixers",
+  description: "Meet singles offline",
    icons: {
     icon: "/fav.png",
     apple: "/fav.png",

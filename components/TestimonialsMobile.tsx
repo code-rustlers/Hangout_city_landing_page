@@ -1,33 +1,22 @@
 import { testimonialsMobile as testimonials } from '@/lib/utils'
 import React, { useState, useRef } from 'react'
-import { ArrowUpRight } from 'lucide-react'
-import Image from 'next/image'
+import { ArrowUpRight, Star } from 'lucide-react'
 
-// Mobile Component
 export const TestimonialsMobile = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
   const scrollContainerRef = useRef<HTMLDivElement>(null)
 
   return (
     <section className="py-12 bg-[#F8F6F3] px-6">
-      <h2 className="text-3xl font-bold text-center text-black mb-20">
+      <h2 className="text-3xl font-bold text-center text-black mb-3">
         What people say
       </h2>
+      <p className="text-center text-gray-600 mb-8">
+        Real reviews from singles who showed up.
+      </p>
 
-      {/* Testimonial Carousel */}
       <div className="relative mb-8">
-        {/* Eyes positioned above the card */}
-        <div className="absolute -top-12 left-1/2 -translate-x-1/2 z-10 w-50 h-50">
-          <Image
-            src="/eyes.png"
-            alt="Eyes"
-            fill
-            className="object-contain w-40 h-40"
-          />
-        </div>
-
-        {/* Scrollable Container */}
-        <div 
+        <div
           ref={scrollContainerRef}
           className="overflow-x-auto scrollbar-hide flex gap-4 snap-x snap-mandatory"
           style={{
@@ -42,31 +31,32 @@ export const TestimonialsMobile = () => {
           }}
         >
           {testimonials.map((testimonial, index) => (
-            <div 
-              key={index}
-              className="min-w-full snap-center"
-            >
-              {/* Testimonial Card */}
+            <div key={index} className="min-w-full snap-center">
+              <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-6 h-66 flex flex-col">
+                <div className="flex justify-center gap-1 mb-5" aria-label={`${testimonial.rating} star review`}>
+                  {Array.from({ length: testimonial.rating }).map((_, starIndex) => (
+                    <Star
+                      key={starIndex}
+                      className="w-5 h-5 text-[#F4B400] fill-[#F4B400]"
+                      strokeWidth={1.5}
+                    />
+                  ))}
+                </div>
 
+                <p className="text-gray-700 text-sm leading-relaxed text-center">
+                  {testimonial.text}
+                </p>
 
-            <div className="bg-[#464646] rounded-2xl p-6 pt-16 h-66 flex flex-col">
-            {/* Testimonial text */}
-            <p className="text-white text-sm leading-relaxed text-center">
-              {testimonial.text}
-            </p>
-
-            {/* Footer pushed to bottom */}
-            <div className="mt-auto flex justify-center pt-6">
-              <span className="font-semibold text-white">
-                {testimonial.name}
-              </span>
+                <div className="mt-auto text-center pt-6">
+                  <span className="font-semibold text-gray-900">
+                    {testimonial.name}
+                  </span>
+                </div>
+              </div>
             </div>
-          </div>
-          </div>
           ))}
         </div>
 
-        {/* Navigation Lines */}
         <div className="flex justify-center gap-2 mt-6">
           {testimonials.map((_, index) => (
             <button
@@ -80,8 +70,8 @@ export const TestimonialsMobile = () => {
                 }
               }}
               className={`h-1 w-12 rounded-full transition-all ${
-                currentIndex === index 
-                  ? 'bg-[#464646]' 
+                currentIndex === index
+                  ? 'bg-[#464646]'
                   : 'bg-gray-300'
               }`}
               aria-label={`Go to testimonial ${index + 1}`}
@@ -90,27 +80,17 @@ export const TestimonialsMobile = () => {
         </div>
       </div>
 
-      {/* Image Card */}
-      <div className="rounded-2xl overflow-hidden relative h-100">
-        <img 
-          src="/group.png"
-          alt="Community gathering" 
-          className="w-full h-full object-cover"
-        />
-        
-        {/* Overlay Content */}
-        <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-black/90 to-transparent p-6">
-          <h3 className="text-white text-xl font-semibold mb-4">
-            Join a community of<br />
-            thousands of <span className="text-[#e46f61]">people like you!</span>
-          </h3>
-          <button className="bg-transparent border-2 border-white text-white pl-6 pr-2 py-2 rounded-full text-base font-semibold flex items-center justify-between hover:bg-white/10 transition-colors w-40">
-            Join Now
-            <span className="bg-[#e46f61] rounded-full w-8 h-8 flex items-center justify-center shrink-0">
-              <ArrowUpRight className="w-4 h-4 text-white" strokeWidth={2.5} />
-            </span>
-          </button>
-        </div>
+      <div className="rounded-2xl bg-[#464646] p-6">
+        <h3 className="text-white text-xl font-semibold mb-4">
+          Meet singles in a room<br />
+          that feels <span className="text-[#e46f61]">worth showing up for.</span>
+        </h3>
+        <a href="#home" className="bg-transparent border-2 border-white text-white pl-6 pr-2 py-2 rounded-full text-base font-semibold flex items-center justify-between hover:bg-white/10 transition-colors w-40">
+          Join Now
+          <span className="bg-[#e46f61] rounded-full w-8 h-8 flex items-center justify-center shrink-0">
+            <ArrowUpRight className="w-4 h-4 text-white" strokeWidth={2.5} />
+          </span>
+        </a>
       </div>
     </section>
   )

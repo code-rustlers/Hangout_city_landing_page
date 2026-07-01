@@ -6,67 +6,37 @@ export default function HowItWorksMobile() {
     <div className="w-full bg-[#FAF9F6] py-12 px-6">
       {/* HEADER */}
       <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
-        What we do?
+        Our offerings
       </h2>
 
-      {/* EVENTS */}
+      {/* CURATED TABLE */}
       <div className="mb-8">
         <div className="flex items-stretch gap-4">
           <div className="w-45 h-58 relative shrink-0 rounded-2xl overflow-hidden">
-            <Image src="/testi1.png" alt="Events" fill className="object-cover" />
+            <Image src="/testi1.png" alt="Curated table" fill className="object-cover" />
           </div>
 
           <div className="flex-1 flex flex-col">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Events</h3>
-            <p className="text-sm text-gray-600 mb-4">
-              Meet 6 new people over dinner. Exact locations are shared 24 hours before.
+            <h3 className="text-xl font-bold mb-2 text-gray-900">Curated Table</h3>
+            <p className="text-sm text-gray-600">
+              8-10 thoughtfully matched singles. Small, warm, and easy to talk.
             </p>
-
-            <button className="mt-auto h-10 bg-[#E07A7A] text-white px-6 rounded-full text-sm font-medium hover:bg-[#d66a6a] transition-colors">
-              Join an event
-            </button>
           </div>
         </div>
       </div>
 
-      {/* SERIES */}
-      <div className="mb-8">
+      {/* SINGLES MIXER */}
+      <div>
         <div className="flex items-stretch gap-4 flex-row-reverse">
           <div className="w-45 h-58 relative shrink-0 rounded-2xl overflow-hidden">
-            <Image src="/testi2.png" alt="Series" fill className="object-cover" />
+            <Image src="/testi2.png" alt="Singles mixer" fill className="object-cover" />
           </div>
 
           <div className="flex-1 flex flex-col">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Series</h3>
-            <p className="text-sm text-gray-600 mb-4">
-              Our multi-week series place you in the same small group across multiple dinners.
-              Less small talk. Deeper connections.
+            <h3 className="text-xl font-bold mb-2 text-gray-900">Singles Mashup</h3>
+            <p className="text-sm text-gray-600">
+              Up to 25 curated singles in a lively, hosted setting. More chances, better conversations.
             </p>
-
-            <button className="mt-auto h-10 bg-[#6B7280] text-white px-6 rounded-full text-sm font-medium hover:bg-[#5a5f6b] transition-colors">
-              Join a series
-            </button>
-          </div>
-        </div>
-      </div>
-
-      {/* COMMUNITY */}
-      <div>
-        <div className="flex items-stretch gap-4">
-          <div className="w-45 h-58 relative shrink-0 rounded-2xl overflow-hidden ">
-            <Image src="/testi3.png" alt="Community" fill className="object-cover" />
-          </div>
-
-          <div className="flex-1 flex flex-col">
-            <h3 className="text-xl font-bold mb-2 text-gray-900">Community</h3>
-            <p className="text-sm text-gray-600 mb-4">
-              After attending events or a series, you can join the wider Hangouts community,
-              containing runner&apos;s clubs, travel groups, party groups, etc.
-            </p>
-
-            <button className="mt-auto h-10 bg-[#7A9B8E] text-white px-4 rounded-full text-sm font-medium hover:bg-[#6a8a7d] transition-colors flex items-center justify-center text-center leading-tight">
-              Join the<br />community
-            </button>
           </div>
         </div>
       </div>
